@@ -1,3 +1,50 @@
-html {
-	color: blue;
+
+body {
+	background-image: url("../img/DSC_1658.JPG");
+	background-position: center center;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-color: rgba(0, 0, 0,0.30);
+	height: 1300px;
+  	width: 100%;
+}
+
+#header-text {
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	top: 50%;
+	width: 60%;
+}
+
+h1 {
+	color: rgba(255, 255, 255,.95);
+	font-size: 125px;
+	font-weight: 100;
+	font-style: italic;
+	letter-spacing: 0.5em;
+	font-family: 'Lora', serif;
+}
+
+#base-text {
+	background-color: rgba(0, 0, 0,0.75);
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	top: 60%;
+	width: 80%;
+}
+
+h2 {
+	color: rgba(255, 246, 0,.75);
+	font-size: 16px;
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 0.25em;
+	line-height:1.95em;
 }
