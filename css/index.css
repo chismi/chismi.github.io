@@ -12,15 +12,16 @@
 /* Fill Background with Image */
 
 body {
+	height: 1300px;
+	width: 100%;
 }
 
 /* Image and Title Div */
-.background {
-	background-image: url("../img/DSC_1658_small.jpg");
-	background-position: center center;
+#background {
+	background: url("../img/DSC_1658_small.jpg") no-repeat center center;
 	background-size: cover;
-	height: 1300px;
-  	width: 100%;
+	height: 100%;
+	width: 100%;
 }
 
 /* Screen Image */
