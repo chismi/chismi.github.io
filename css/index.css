@@ -1,4 +1,9 @@
 
+/* reveal all boxes */
+/** {
+	border: 1px solid rgba(0,0,0,0.3);
+}*/
+
 body {
 	background-image: url("../img/DSC_1658.JPG");
 	background-position: center center;
@@ -7,21 +12,24 @@ body {
 	padding: 0;
 }
 
-.header {
+/* Image and Title Div */
+.banner {
 	background-color: rgba(0, 0, 0,0.30);
 	height: 1300px;
   	width: 100%;
 }
 
-#header-text {
-	margin: 0 auto;
-	position: relative;
-	text-align: center;
-	top: 50%;
-	width: 60%;
+/* Centered Title Container*/
+.title {
+	/*background-color: rgba(0, 0, 0,0.75);*/
+	position: fixed;
+	top: 25%;
+	width: 100%;
 }
 
+/* Centered Title Text*/
 h1 {
+	text-align: center;
 	color: rgba(255, 255, 255,.95);
 	font-size: 125px;
 	font-weight: 100;
@@ -30,21 +38,27 @@ h1 {
 	font-family: 'Lora', serif;
 }
 
-#base-text {
+/* Baseline Navigation Links Div */
+.navigation {
 	background-color: rgba(0, 0, 0,0.75);
 	margin: 0 auto;
-	position: relative;
-	text-align: center;
-	top: 60%;
-	width: 80%;
+	position: fixed;
+	top: 90%;
+	width: 100%;
 }
 
+/* Link Text Container */
+.nav_links {
+}
+
+/* Link Text Styling */
 h2 {
 	color: rgba(255, 246, 0,.75);
 	font-size: 16px;
+	text-align: center;
 	font-family: 'Lora', serif;
 	font-style: italic;
 	font-weight: 400;
 	letter-spacing: 0.25em;
-	line-height:1.95em;
+	line-height:1.3em;
 }
