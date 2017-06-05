@@ -10,8 +10,6 @@ body {
 	background-size: cover;
 	margin: 0;
 	padding: 0;
-	height: 100%;
-	width: 100%;
 }
 
 /* Image and Title Div */
@@ -19,6 +17,7 @@ body {
 	background-color: rgba(0, 0, 0,0.30);
 	height: 1300px;
   	width: 100%;
+  	overflow: scroll;
 }
 
 /* Centered Title Container*/
@@ -26,7 +25,10 @@ body {
 	/*background-color: rgba(0, 0, 0,0.75);*/
 	position: fixed;
 	top: 25%;
+	height: 150px;
 	width: 100%;
+	min-width: 800px;
+	margin: auto;
 }
 
 /* Centered Title Text*/
@@ -50,13 +52,23 @@ h1 {
 	overflow: scroll;
 }
 
-/* Link Text Container */
+/* Nav Text Container */
 .nav_links {
 	min-width: 800px;
 }
 
-/* Link Text Styling */
-h2 {
+/* Nav List Styling */
+ul {
+	width: 800px;
+	margin: 0.75em auto;
+}
+
+/*Link Hover Style */
+
+/* Nav Link Text Styling */
+li {
+	padding: 0 0.5em;
+	border-right: 1px solid rgba(255, 246, 0,.75); 
 	color: rgba(255, 246, 0,.75);
 	font-size: 16px;
 	text-align: center;
@@ -65,4 +77,12 @@ h2 {
 	font-weight: 400;
 	letter-spacing: 0.25em;
 	line-height:1.3em;
+	display: inline-block;
 }
+
+/*Hide right side border*/
+li.right-link{
+	border-right: none;
+}
+
+
