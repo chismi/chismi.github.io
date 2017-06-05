@@ -5,7 +5,7 @@
 }*/
 
 body {
-	background-image: url("../img/DSC_1658_small.JPG");
+	background-image: url("../img/DSC_1658_small.jpg");
 	background-position: center center;
 	background-size: cover;
 	margin: 0;
@@ -47,10 +47,12 @@ h1 {
 	position: fixed;
 	top: 90%;
 	width: 100%;
+	overflow: scroll;
 }
 
 /* Link Text Container */
 .nav_links {
+	min-width: 800px;
 }
 
 /* Link Text Styling */
