@@ -9,6 +9,8 @@
 	padding: 0;
 }
 
+/* Fill Background with Image */
+
 body {
 }
 
@@ -32,7 +34,7 @@ body {
 .title {
 	/*background-color: rgba(0, 0, 0,0.75);*/
 	position: fixed;
-	top: 25%;
+	top: 30%;
 	height: 150px;
 	width: 100%;
 	min-width: 800px;
