@@ -12,6 +12,8 @@
 /* Fill Background with Image */
 
 body {
+	height: 1000px;
+	width: 100%;
 }
 
 /* Image and Title Div */
