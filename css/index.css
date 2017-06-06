@@ -6,19 +6,20 @@
 }
 
 /* Fill Background with Image */
-
 body {
-	height: 1000px;
-	width: 100%;
 }
 
 /* Image and Title Div */
 #background {
 	background: url("../img/DSC_1658_small.jpg") no-repeat center center;
 	background-size: cover;
-	height: 100%;
-	width: auto;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 1300px;
+	width: 100%;
 }
+
 
 /* Screen Image */
 .screen {
@@ -47,6 +48,17 @@ h1 {
 	font-style: italic;
 	letter-spacing: 0.5em;
 	font-family: 'Lora', serif;
+}
+
+/* mobile-modifier */
+@media (max-width: 1000px) {
+
+	/* Image and Title Div */
+	#background {
+		background: url("../img/DSC_1658_small_mobile.jpg") no-repeat center center;
+		width: 100%;
+		height: 100%;
+	}	
 }
 
 /* Baseline Navigation Links Div */
