@@ -1,4 +1,4 @@
-/* reveal all boxes */
+/* mobile-friendly styling */
 
 * {
 	margin: 0;
@@ -14,7 +14,7 @@ body {
 
 /* Image and Title Div */
 #background {
-	background: url("../img/DSC_1658_small.jpg") no-repeat center center;
+	background: url("../img/DSC_1658_small_mobile.jpg") no-repeat center center;
 	background-size: cover;
 	height: 100%;
 	width: auto;
@@ -22,7 +22,7 @@ body {
 
 /* Screen Image */
 .screen {
-	background-color: rgba(0, 0, 0,0.30);
+	background-color: rgba(100, 0, 0,0.30);
 	height: 100%;
 	width: 100%;
 }
