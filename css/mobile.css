@@ -1,72 +1,39 @@
-/* mobile-friendly styling */
+/* Mobile-friendly styling: Modify index.css 
+for viewports fewer than 400px wide; */
 
-* {
-	margin: 0;
-	padding: 0;
-}
-
-/* Fill Background with Image */
-
-body {
-	height: 1000px;
-	width: 100%;
-}
 
 /* Image and Title Div */
 #background {
 	background: url("../img/DSC_1658_small_mobile.jpg") no-repeat center center;
-	background-size: cover;
-	height: 100%;
-	width: auto;
-}
-
-/* Screen Image */
-.screen {
-	background-color: rgba(100, 0, 0,0.30);
-	height: 100%;
 	width: 100%;
-}
+	height: 750px;
+}	
 
 /* Centered Title Container*/
 .title {
-	/*background-color: rgba(0, 0, 0,0.75);*/
-	position: fixed;
-	top: 30%;
-	height: 150px;
-	width: 100%;
-	min-width: 800px;
-	margin: auto;
+	top: 35%;
+	height: auto;
 }
 
 /* Centered Title Text*/
 h1 {
-	text-align: center;
-	color: rgba(255, 255, 255,.95);
-	font-size: 125px;
-	font-weight: 100;
-	font-style: italic;
-	letter-spacing: 0.5em;
-	font-family: 'Lora', serif;
+	font-size: 65px;
 }
 
 /* Baseline Navigation Links Div */
 .navigation {
-	background-color: rgba(0, 0, 0,0.75);
-	margin: 0 auto;
-	position: fixed;
-	top: 90%;
-	width: 100%;
-	overflow: scroll;
+	background-color: rgba(0, 0, 0,0);
+	top: 70%;
 }
 
 /* Nav Text Container */
 .nav_links {
-	min-width: 800px;
+	min-width: 100px;
 }
 
 /* Nav List Styling */
 ul {
-	width: 800px;
+	width: 300px;
 	margin: 0.75em auto;
 }
 
@@ -74,20 +41,10 @@ ul {
 
 /* Nav Link Text Styling */
 li {
-	padding: 0 0.5em;
-	border-right: 1px solid rgba(255, 246, 0,.75); 
-	color: rgba(255, 246, 0,.75);
-	font-size: 16px;
-	text-align: center;
-	font-family: 'Lora', serif;
-	font-style: italic;
-	font-weight: 400;
-	letter-spacing: 0.25em;
-	line-height:1.3em;
-	display: inline-block;
-}
-
-/*Hide right side border*/
-li.right-link{
-	border-right: none;
+	padding: .15em 0.5em;
+	margin: .50em 0;
+	border: none;
+	border-radius: 5px; 
+	background-color: rgba(0, 0, 0,0.50);
+	display: block;
 }
