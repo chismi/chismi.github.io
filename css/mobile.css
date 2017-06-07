@@ -11,19 +11,20 @@ for viewports fewer than 400px wide; */
 
 /* Centered Title Container*/
 .title {
-	top: 35%;
+	top: 25%;
 	height: auto;
 }
 
 /* Centered Title Text*/
 h1 {
-	font-size: 65px;
+	font-size: 75px;
+	letter-spacing: 0.25em;
 }
 
 /* Baseline Navigation Links Div */
 .navigation {
 	background-color: rgba(0, 0, 0,0);
-	top: 70%;
+	top: 65%;
 }
 
 /* Nav Text Container */
@@ -41,10 +42,11 @@ ul {
 
 /* Nav Link Text Styling */
 li {
-	padding: .15em 0.5em;
-	margin: .50em 0;
+	padding: .55em 0.5em;
+	margin: .75em 0;
 	border: none;
 	border-radius: 5px; 
 	background-color: rgba(0, 0, 0,0.50);
 	display: block;
+	text-decoration: none;
 }
