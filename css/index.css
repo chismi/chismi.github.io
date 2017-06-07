@@ -4,6 +4,10 @@
 }
 
 /*Link Handling*/
+a{
+	width: 100%;
+}
+
 a:link {
 	text-decoration: none;
 	color: rgba(255, 246, 0,.75);
