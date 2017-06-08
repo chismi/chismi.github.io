@@ -62,31 +62,63 @@ body {
 
 /* Screen Image */
 .screen {
-	background-color: rgba(0, 0, 0,0.30);
 	height: 100%;
 	width: 100%;
+	background-color: rgba(0, 0, 0,0.30);
+}
+
+/* Centered Top-Page Icon */
+.BLM-icon {
+	position: fixed;
+	top: 5%;
+	height: auto;
+	width: 100%;
+}
+
+div.BLM-icon {
+	margin: auto;
+	height: 145px;
+}
+/* Centered Top-Page Icon for Index */
+.BLM-icon-idx  {
+	background: url("../img/Icon_idx.png") no-repeat center center;
+	background-size: contain;
+	height: 100%
+}
+
+/* Centered Top-Page Icon for Work*/
+.BLM-icon-wrk {
+	background: url("../img/Icon_wrk.png") no-repeat center center;
+	background-size: contain;
+	height: 100%
+}
+
+/* Centered Top-Page Icon for Development*/
+.BLM-icon-dev {
+	background: url("../img/Icon_dev.png") no-repeat center center;
+	background-size: contain;
+	height: 100%
 }
 
 /* Centered Title Container*/
 .title {
-	/*background-color: rgba(0, 0, 0,0.75);*/
 	position: fixed;
-	top: 30%;
-	height: 150px;
-	width: 100%;
+	top: 40%;
 	margin: auto;
+	height: auto;
+	width: 100%;
+	text-align: center;
 }
 
 /* Centered Title Text*/
 h1 {
-	text-align: center;
-	margin: 0.25em auto;
-	color: rgba(255, 255, 255,.95);
-	font-size: 120px;
+	position: relative;
 	font-weight: 100;
 	font-style: italic;
 	letter-spacing: 0.35em;
 	font-family: 'Lora', serif;
+	font-size: 100px;
+	color: rgba(255, 255, 255,.95);
 }
 
 /* Sub-Page Headings*/
@@ -114,7 +146,7 @@ h2 {
 	width: 80%;
 	margin: auto;
 	position: relative;
-	background-color: rgba(0,0,0,0.75);
+	background-color: rgba(0,0,0,0.60);
 	padding: 0.75em;
 	border-radius: 5px;
 	text-align: center;
