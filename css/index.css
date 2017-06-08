@@ -103,7 +103,7 @@ div.BLM-icon {
 /* Centered Title Container*/
 .title {
 	position: fixed;
-	top: 40%;
+	top: 35%;
 	margin: auto;
 	height: auto;
 	width: 100%;
@@ -136,7 +136,7 @@ h2 {
 /* Baseline Navigation Links Div */
 #fixed_navigation {
 	position: fixed;
-	top: 85%;
+	bottom: 20px;
 	width: 100%;
 	overflow: scroll;
 }
