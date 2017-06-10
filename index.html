@@ -9,6 +9,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	<link rel="icon" href="img/Favicon_1.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<title>BLOOM</title>
 </head>
 <body>
@@ -19,15 +20,24 @@
 		<!--Overlay Color Screen-->
 		<div class="screen">
 
-			<!--BlOOM Icon (specific to page)-->
-			<div class="BLM-icon">
-				<!--Icon Container See CSS to Change-->
-				<div class="BLM-icon-idx">
-				</div>
-			</div>
+			<!--BlOOM Icon/Title Container for 100% Positioning-->
+			<header class="BLM-header">
+				<!--Icon Container for 80% Positioning See CSS to Change-->
+				<!--onClick toggle icons-->
+				<section class= "BLM-icon-title">
+					<div class="BLM-icon-sm-bw">
+					</div>
+					<div class="BLM-icon-sm-idx">
+					</div>
+					<div class="Icon-title">
+						<h3>Bloom</h3>
+					</div>
+				</section>
+			</header>
 
 			<!--Centered Title-->
 			<div class="title">
+				<div class = "BLM-icon-idx"></div>
 				<h1>Bloom</h1>
 			</div>
 		
@@ -35,8 +45,10 @@
 			<div id="fixed_navigation">
 				<!--Link Text Styling-->
 				<ul class="nav_links">
+					<li id=content-btn>Switch
+					</li>
 					<li class="left-link">
-						<a href="work.html">Work</a>
+						<a href="work.html">Content</a>
 					</li>
 					<li>
 						<a href="development.html">In Development<a>
@@ -49,9 +61,6 @@
 			</div>
 		</div>
 	</div>
-	<!--<script type="text/javascript" src="js/index.js"></script>
-	-->
-
-<script type="js/index.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

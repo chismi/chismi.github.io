@@ -24,6 +24,7 @@ a:hover {
 
 /* Fill Background with Image */
 body {
+	background-color: rgba(0,0,0,.75);
 	overflow: scroll;
 }
 
@@ -36,6 +37,7 @@ body {
 	top: 0;
 	height: 120vh;
 	width: 100%;
+	display: none;
 }
 
 /* Change Background Image WORK Page Div */
@@ -67,54 +69,104 @@ body {
 	background-color: rgba(0, 0, 0,0.30);
 }
 
-/* Centered Top-Page Icon */
-.BLM-icon {
+/* Header Container 100% Width */
+.BLM-header {
 	position: fixed;
-	top: 5%;
-	height: auto;
+	top: 30px;
 	width: 100%;
 }
 
-div.BLM-icon {
+/* Centered Top-Page Icon and Title Container */
+.BLM-icon-title {
+	position: relative;
 	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	top: 5%;
 	height: 145px;
+	width: 80%;
+	text-align: center;
 }
-/* Centered Top-Page Icon for Index */
-.BLM-icon-idx  {
+
+/* Top-Page Icon for landing */
+.BLM-icon-sm-bw {
+	position: relative;
+	top: 0%;
+	background: url("../img/Icon_bw.png") no-repeat center center;
+	background-size: contain;
+	height: 100px;
+	width: 100px;
+	display: none;
+}
+
+/* Top-Page Icon for landing */
+.BLM-icon-sm-idx {
+	position: relative;
+	top: 0%;
 	background: url("../img/Icon_idx.png") no-repeat center center;
 	background-size: contain;
-	height: 100%
+	height: 100px;
+	width: 100px;
+	display: none;
+}
+
+/* Top-Page Title for Content-view */
+.Icon-title {
+	position: relative;
+	display: none;
+	top: 0%;
+}
+
+h3 {
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.25em;
+	font-family: 'Lora', serif;
+	font-size: 50px;
+	color: rgba(255, 255, 255,.95);
 }
 
 /* Centered Top-Page Icon for Work*/
 .BLM-icon-wrk {
 	background: url("../img/Icon_wrk.png") no-repeat center center;
 	background-size: contain;
-	height: 100%
+	height: 100%;
 }
 
 /* Centered Top-Page Icon for Development*/
 .BLM-icon-dev {
 	background: url("../img/Icon_dev.png") no-repeat center center;
 	background-size: contain;
-	height: 100%
+	height: 100%;
 }
 
 /* Centered Title Container*/
 .title {
 	position: fixed;
-	top: 35%;
+	top: 20%;
+	width: 100%;
 	margin: auto;
 	height: auto;
-	width: 100%;
-	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Centered Icon for Index */
+.BLM-icon-idx  {
+	background: url("../img/Icon_idx.png") no-repeat center center;
+	background-size: contain;
+	height: 145px;
+	width: 145px;
 }
 
 /* Centered Title Text*/
 h1 {
 	position: relative;
-	margin: auto;
-	font-weight: 100;
+	font-weight: 400;
 	font-style: italic;
 	letter-spacing: 0.25em;
 	font-family: 'Lora', serif;
@@ -143,12 +195,12 @@ h2 {
 
 /* Nav Text Container */
 .nav_links {
-	width: 80%;
-	margin: auto;
 	position: relative;
-	background-color: rgba(0,0,0,0.65);
+	margin: auto;
+	width: 80%;
 	padding: 0.75em;
 	border-radius: 5px;
+	background-color: rgba(0,0,0,0.65);
 	text-align: center;
 }
 
@@ -166,7 +218,7 @@ li {
 	text-align: center;
 	font-family: 'Lora', serif;
 	font-style: italic;
-	font-weight: 400;
+	font-weight: 100;
 	letter-spacing: 0.25em;
 	line-height:1.3em;
 	margin: auto;
