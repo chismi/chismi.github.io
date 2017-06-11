@@ -10,12 +10,12 @@ a{
 
 a:link {
 	text-decoration: none;
-	color: rgba(226, 244, 66, 0.70);
+	color: rgba(0, 0, 0, 0.80);
 }
 
 a:visited {
 	text-decoration: none;
-	color: rgba(226, 244, 66, 0.70);
+	color: rgba(0, 0, 0, 0.80);
 }
 
 a:hover {
@@ -24,18 +24,18 @@ a:hover {
 
 /* Fill Background with Image */
 body {
-	background-color: rgba(0,0,0,.75);
 	overflow: scroll;
 }
 
 /* Image and Title Div */
 #background {
-	background: url("../img/DSC_1658_small.jpg") no-repeat center center;
-	background-size: cover;
+	/*background: url("../img/DSC_1658_small.jpg") no-repeat center center;*/
+	/*background-size: cover;*/
+	background-color: rgba(240,240,240,1);
 	position: absolute;
 	left: 0;
 	top: 0;
-	height: 120vh;
+	height: 100vh;
 	width: 100%;
 	display: none;
 }
@@ -66,7 +66,7 @@ body {
 .screen {
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0, 0, 0,0.30);
+	background-color: rgba(0, 0, 0,0.0);
 }
 
 /* Header Container 100% Width */
@@ -82,7 +82,7 @@ body {
 	margin: auto;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	top: 5%;
 	height: 145px;
@@ -90,42 +90,32 @@ body {
 	text-align: center;
 }
 
-/* Top-Page Icon for landing */
-.BLM-icon-sm-bw {
+/* Top-Page Icon for landing: Black/ White, Vary Colors With Toggle */
+.BLM-icon-sm {
 	position: relative;
 	top: 0%;
 	background: url("../img/Icon_bw.png") no-repeat center center;
 	background-size: contain;
 	height: 100px;
 	width: 100px;
-	display: none;
-}
-
-/* Top-Page Icon for landing */
-.BLM-icon-sm-idx {
-	position: relative;
-	top: 0%;
-	background: url("../img/Icon_idx.png") no-repeat center center;
-	background-size: contain;
-	height: 100px;
-	width: 100px;
-	display: none;
+	display: inline-block;
 }
 
 /* Top-Page Title for Content-view */
 .Icon-title {
 	position: relative;
+	margin: 0 20px;
 	display: none;
 	top: 0%;
 }
 
 h3 {
-	font-weight: 400;
+	font-weight: 300;
 	font-style: italic;
-	letter-spacing: 0.25em;
-	font-family: 'Lora', serif;
+	letter-spacing: 0.10em;
+	font-family: 'Overpass', sans-serif;
 	font-size: 50px;
-	color: rgba(255, 255, 255,.95);
+	color: rgba(30, 30, 30,.95);
 }
 
 /* Centered Top-Page Icon for Work*/
@@ -149,7 +139,7 @@ h3 {
 	width: 100%;
 	margin: auto;
 	height: auto;
-	display: flex;
+	display: none;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
@@ -167,7 +157,7 @@ h3 {
 h1 {
 	position: relative;
 	font-weight: 400;
-	font-style: italic;
+	font-style: normal;
 	letter-spacing: 0.25em;
 	font-family: 'Lora', serif;
 	font-size: 75px;
@@ -181,7 +171,7 @@ h2 {
 	color: rgba(255, 255, 255,.75);
 	font-size: 50px;
 	font-weight: 100;
-	font-style: italic;
+	font-style: no;
 	letter-spacing: 0.10em;
 	font-family: 'Lora', serif;
 }
@@ -199,30 +189,30 @@ h2 {
 	margin: auto;
 	width: 80%;
 	padding: 0.75em;
-	border-radius: 5px;
-	background-color: rgba(0,0,0,0.65);
 	text-align: center;
 }
 
 /* Nav List Styling */
 ul {
+	border: 1px solid rgba(0,0,0,0.75);
+	border-radius: 3px;
 }
-
-/*Link Hover Style */
 
 /* Nav Link Text Styling */
 li {
-	padding: 0.25em 0.75em;
-	color: rgba(226, 244, 66,.70);
+	display: inline-block;
+	margin: auto;
+	width: auto;
+	padding: 0.25em 1em;
+	border-radius: 3px;
+	color: rgba(0, 0, 0,.85);
 	font-size: 16px;
 	text-align: center;
-	font-family: 'Lora', serif;
+	font-family: 'Overpass', sans-serif;
 	font-style: italic;
-	font-weight: 100;
-	letter-spacing: 0.25em;
+	font-weight: 300;
+	letter-spacing: 0.1em;
 	line-height:1.3em;
-	margin: auto;
-	display: inline-block;
 }
 
 
