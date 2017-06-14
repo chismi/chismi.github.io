@@ -40,19 +40,19 @@ var navTitle = navElement.text()
 switch (navTitle) {
 	 /* Return Work Color */
 	 case 'Work':
-	 return "rgba(189,16,224,0.75)";
+	 return "rgba(189,16,224,0.35)";
 	 break;
 	 /* Return Development Color */
 	 case 'In-Development':
-	 return "rgba(0,170,197,0.75)";
+	 return "rgba(0,170,197,0.35)";
 	 break;
 	 /* Return Contributors Color */
 	 case 'Contributors':
-	 return "rgba(248,231,28,0.75)";
+	 return "rgba(248,231,28,0.35)";
 	 break;
 	 /* Contact Icon */
 	 case 'Contact':
-	 return "rgba(126,211,33,0.75)";
+	 return "rgba(126,211,33,0.35)";
 	 break;
 }
 
@@ -67,16 +67,18 @@ $navButton.click(function(){
 	switchIcon($(this).text());
 });
 
-// Onmouseover change mouse and Font Weight
-$navButton.mouseover(function(){
+// On click change and hold background color
+$navButton.click(function(){
 
 	var switchColor = navColor($(this));
-	$(this).css("background-color", switchColor)
-	document.body.style.cursor = 'pointer';
+	//reset all nav bkg colors
+	$('li').css("background-color", "rgba(255,255,255,0)");
+	$(this).css("background-color", switchColor);
 })
 
 // Reverse Mouseover Changes when Mouse Leaves
-$navButton.mouseleave(function(){
+/*$navButton.mouseleave(function(){
 	$(this).css("background-color", "rgba(240,240,240,0)")
 	document.body.style.cursor = 'default';
-})
+})*/
+

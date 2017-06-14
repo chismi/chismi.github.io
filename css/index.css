@@ -25,6 +25,7 @@ a:hover {
 /* Fill Background with Image */
 body {
 	overflow: scroll;
+	background-color: rgba(240,240,240,1);
 }
 
 /* Image and Title Div */
@@ -35,36 +36,14 @@ body {
 	position: absolute;
 	left: 0;
 	top: 0;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	display: none;
 }
 
-/* Change Background Image WORK Page Div */
-#work_background {
-	background: url("../img/Work_img.jpg") no-repeat center center;
-	background-size: cover;
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 120vh;
-	width: 100%;
-}
-
-/* Change Background Image DEVELOPMENT Page Div */
-#dev_background {
-	background: url("../img/Dev_img.jpg") no-repeat center center;
-	background-size: cover;
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 120vh;
-	width: 100%;
-}
-
 /* Screen Image */
 .screen {
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 	background-color: rgba(0, 0, 0,0.0);
 }
@@ -101,7 +80,7 @@ body {
 	display: inline-block;
 }
 
-/* Top-Page Title for Content-view */
+/* Top-Page Title */
 .Icon-title {
 	position: relative;
 	margin: 0 20px;
@@ -109,51 +88,7 @@ body {
 	top: 0%;
 }
 
-h3 {
-	font-weight: 300;
-	font-style: italic;
-	letter-spacing: 0.10em;
-	font-family: 'Overpass', sans-serif;
-	font-size: 50px;
-	color: rgba(30, 30, 30,.95);
-}
-
-/* Centered Top-Page Icon for Work*/
-.BLM-icon-wrk {
-	background: url("../img/Icon_wrk.png") no-repeat center center;
-	background-size: contain;
-	height: 100%;
-}
-
-/* Centered Top-Page Icon for Development*/
-.BLM-icon-dev {
-	background: url("../img/Icon_dev.png") no-repeat center center;
-	background-size: contain;
-	height: 100%;
-}
-
-/* Centered Title Container*/
-.title {
-	position: fixed;
-	top: 20%;
-	width: 100%;
-	margin: auto;
-	height: auto;
-	display: none;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-}
-
-/* Centered Icon for Index */
-.BLM-icon-idx  {
-	background: url("../img/Icon_idx.png") no-repeat center center;
-	background-size: contain;
-	height: 145px;
-	width: 145px;
-}
-
-/* Centered Title Text*/
+/* Centered Title Heading*/
 h1 {
 	position: relative;
 	font-weight: 400;
@@ -176,6 +111,116 @@ h2 {
 	font-family: 'Lora', serif;
 }
 
+/* Icon-Title Heading */
+h3 {
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: 0.10em;
+	font-family: 'Overpass', sans-serif;
+	font-size: 50px;
+	color: rgba(30, 30, 30,.95);
+}
+
+/* Main Content Container */
+.main_container {
+	position: absolute;
+	top: 30vh;
+	width: 100vw;
+	height: auto;
+	margin: auto;
+	background: linear-gradient(rgba(240,240,240,0.0),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1));
+	/*border: 1px solid rgba(0,0,0,0.75);*/
+	border-radius: 3px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+/* Project Containers */
+.project {
+	position: relative;
+	margin: 30px 10px;
+	flex-grow: 1;
+	/*border: 1px solid rgba(0,0,0,0.75); */
+	border-radius: 3px;
+	overflow: scroll;
+}
+
+/* Individual Project Container and Project Properties */
+/* Project 1*/
+#P1 {
+	width: 200px;
+	height: 300px;
+}
+
+div.P1 {
+	width: 100%;
+	height: 100%;
+
+}
+
+#P1div1 {
+	background: url("../Projects/Project_1/img/DSSR_1.png") no-repeat center center;
+	background-size: contain;
+}
+
+#P1div2 {
+	background: url("../Projects/Project_1/img/DSSR_2.png") no-repeat center center;
+	background-size: contain;
+}
+
+#P1div3 {
+	background: url("../Projects/Project_1/img/DSSR_3.png") no-repeat center center;
+	background-size: contain;
+}
+
+
+/* Project 2*/
+#P2 {
+	width: 300px;
+	height: 200px;
+}
+
+div.P2 {
+	width: 100%;
+	height: 100%;
+}
+
+#P2div1 {
+	background: url("../Projects/Project_2/img/DSC_0261.JPG") no-repeat center center;
+	background-size: contain;
+}
+
+#P2div2 {
+	background: url("../Projects/Project_2/img/DSC_1989.JPG") no-repeat center center;
+	background-size: contain;
+}
+
+#P2div3 {
+	background: url("../Projects/Project_2/img/DSC_0271.JPG") no-repeat center center;
+	background-size: contain;
+}
+
+/* Project 3*/
+#P3 {
+	width: 200px;
+	height: 250px;
+}
+
+p.P3 {
+	margin: 10px;
+	text-align: center;
+	line-height: 1.5em;
+	text-indent: 2em;
+	font-family: 'Lora'
+	font-weight: 100;
+	font-size: 14px;
+
+}
+
+
 /* Baseline Navigation Links Div */
 #fixed_navigation {
 	position: fixed;
@@ -188,12 +233,13 @@ h2 {
 	position: relative;
 	margin: auto;
 	width: 80%;
-	padding: 0.75em;
+	padding: 0.45em;
 	text-align: center;
 }
 
 /* Nav List Styling */
 ul {
+	background-color: rgba(240,240,240,0.85);
 	border: 1px solid rgba(0,0,0,0.75);
 	border-radius: 3px;
 }
@@ -201,9 +247,9 @@ ul {
 /* Nav Link Text Styling */
 li {
 	display: inline-block;
-	margin: auto;
+	margin: 0 1em;
 	width: auto;
-	padding: 0.25em 1em;
+	padding: .25em 1em;
 	border-radius: 3px;
 	color: rgba(0, 0, 0,.85);
 	font-size: 16px;
@@ -215,5 +261,25 @@ li {
 	line-height:1.3em;
 }
 
+/* Nav Link Hover Styling*/
+#wrk:hover {
+	background-color: rgba(189,16,224,0.55) !important;
+	cursor: pointer;
+}
+
+#dev:hover {
+	background-color: rgba(0,170,197,0.55) !important;
+	cursor: pointer;
+}
+
+#ctrb:hover {
+	background-color: rgba(248,231,28,0.55) !important;
+	cursor: pointer;
+}
+
+#ctct:hover {
+	background-color: rgba(126,211,33,0.55) !important;
+	cursor: pointer;
+}
 
 
