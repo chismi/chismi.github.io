@@ -30,9 +30,9 @@ body {
 
 /* Image and Title Div */
 #background {
-	/*background: url("../img/DSC_1658_small.jpg") no-repeat center center;*/
+	/* background: url("../img/DSC_1658_small.jpg") no-repeat center center; */
 	/*background-size: cover;*/
-	background-color: rgba(240,240,240,1);
+	background-color: rgba(240,240,240,0);
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -45,13 +45,14 @@ body {
 .screen {
 	height: 100vh;
 	width: 100%;
-	background-color: rgba(0, 0, 0,0.0);
+	background-color: rgba(0, 0, 0,0);
+	text-align: center;
 }
 
 /* Header Container 100% Width */
 .BLM-header {
 	position: fixed;
-	top: 30px;
+	top: 2vh;
 	width: 100%;
 }
 
@@ -75,15 +76,14 @@ body {
 	top: 0%;
 	background: url("../img/Icon_bw.png") no-repeat center center;
 	background-size: contain;
-	height: 100px;
-	width: 100px;
+	height: 80px;
+	width: 80px;
 	display: inline-block;
 }
 
 /* Top-Page Title */
 .Icon-title {
 	position: relative;
-	margin: 0 20px;
 	display: none;
 	top: 0%;
 }
@@ -123,27 +123,27 @@ h3 {
 
 /* Main Content Container */
 .main_container {
-	position: absolute;
-	top: 30vh;
-	width: 100vw;
+	position: relative;
+	top: 25vh;
+	width: 80vw;
 	height: auto;
 	margin: auto;
+	padding-bottom: 150px;
 	background: linear-gradient(rgba(240,240,240,0.0),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1),rgba(240,240,240,1));
 	/*border: 1px solid rgba(0,0,0,0.75);*/
 	border-radius: 3px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
-
 }
 
 /* Project Containers */
 .project {
 	position: relative;
-	margin: 30px 10px;
+	margin: 40px 20px;
 	flex-grow: 1;
-	/*border: 1px solid rgba(0,0,0,0.75); */
+	/* border: 1px solid rgba(0,0,0,0.75); */
 	border-radius: 3px;
 	overflow: scroll;
 }
@@ -166,16 +166,6 @@ div.P1 {
 	background-size: contain;
 }
 
-#P1div2 {
-	background: url("../Projects/Project_1/img/DSSR_2.png") no-repeat center center;
-	background-size: contain;
-}
-
-#P1div3 {
-	background: url("../Projects/Project_1/img/DSSR_3.png") no-repeat center center;
-	background-size: contain;
-}
-
 
 /* Project 2*/
 #P2 {
@@ -193,20 +183,11 @@ div.P2 {
 	background-size: contain;
 }
 
-#P2div2 {
-	background: url("../Projects/Project_2/img/DSC_1989.JPG") no-repeat center center;
-	background-size: contain;
-}
-
-#P2div3 {
-	background: url("../Projects/Project_2/img/DSC_0271.JPG") no-repeat center center;
-	background-size: contain;
-}
 
 /* Project 3*/
 #P3 {
-	width: 200px;
-	height: 250px;
+	width: 250px;
+	height: 300px;
 }
 
 p.P3 {
@@ -224,15 +205,17 @@ p.P3 {
 /* Baseline Navigation Links Div */
 #fixed_navigation {
 	position: fixed;
-	bottom: 30px;
+	bottom: 0px;
 	width: 100%;
+	padding: 35px 0px;
+	background: linear-gradient(rgba(240,240,240,0),rgba(240,240,240,1),rgba(240,240,240,1));
 }
 
 /* Nav Text Container */
 .nav_links {
 	position: relative;
 	margin: auto;
-	width: 80%;
+	width: 70%;
 	padding: 0.45em;
 	text-align: center;
 }
