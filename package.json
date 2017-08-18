@@ -1,0 +1,19 @@
+{
+  "name": "onlineportfolio",
+  "version": "0.0.1",
+  "description": "portfolio of architecture and design work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chismi/chismi.github.io.git"
+  },
+  "author": "Mitchell Chisholm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chismi/chismi.github.io/issues"
+  },
+  "homepage": "https://github.com/chismi/chismi.github.io#readme"
+}
