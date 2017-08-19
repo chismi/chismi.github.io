@@ -3,8 +3,9 @@
 @import "compass/reset";
 
 //local imports
-@import "base.scss";
 @import "variables";
+@import "base.scss";
 @import "mixins";
 @import "projectbase";
 @import "projectimages";
+@import "navigation";

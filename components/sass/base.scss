@@ -1,4 +1,23 @@
-h1,h2,h3,h4,h5,h6 {
-	font-family: helvetica;
-	color: red;
+body {
+	background-color: $background-gry;
+}
+
+.intro {
+	position: relative;
+	width: 100%;
+	padding: 40px 0px 30px 0px;
+	border-radius: 3px;
+	font-family: $font-header;
+	color: rgba(0,0,0,0.75);
+	text-align: center;
+		h1 {
+			font-size: 18px;
+			padding-bottom: 0.5em;
+		}
+		h2 {
+			font-size: 14px;
+			padding-top: 0.5em;
+			color: $nav-pnk;
+		}
+
 }
