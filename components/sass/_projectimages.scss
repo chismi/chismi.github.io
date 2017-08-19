@@ -1,0 +1,33 @@
+$p1imgurl: '../images/p1/ISLAND_1.png';
+$p2imgurl: '../images/p2/CUBE_ELEV_ISO.png';
+$p3imgurl: '../images/p3/MeeshGG.png';
+$p4imgurl: '../images/p4/MN_OLY_ISO.png';
+$p5imgurl: '../images/p5/3060_Cart_FinalAssembly_1.png';
+
+%pimage{
+	height: 100px;
+	width: 100px;
+}
+
+.project1{
+	@extend %pimage;
+	@include bckImg($p1imgurl);
+}
+
+.project2{
+	@extend %pimage;
+	@include bckImg($p2imgurl);
+}
+
+.project3{
+	@extend %pimage;
+	@include bckImg($p3imgurl);
+}
+.project4{
+	@extend %pimage;
+	@include bckImg($p4imgurl);
+}
+.project5{
+	@extend %pimage;
+	@include bckImg($p5imgurl);
+}

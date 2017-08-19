@@ -58,3 +58,48 @@ h1, h2, h3, h4, h5, h6 {
   font-family: helvetica;
   color: red;
 }
+
+.projects_main {
+  width: 100%;
+  height: auto;
+  margin: 15% 0;
+  text-align: center;
+}
+
+.project_container {
+  display: inline-block;
+  margin: 10px;
+}
+.project_container h3 {
+  color: blue;
+}
+
+.project1, .project2, .project3, .project4, .project5 {
+  height: 100px;
+  width: 100px;
+}
+
+.project1 {
+  background: url("../images/p1/ISLAND_1.png") no-repeat center center;
+  background-size: contain;
+}
+
+.project2 {
+  background: url("../images/p2/CUBE_ELEV_ISO.png") no-repeat center center;
+  background-size: contain;
+}
+
+.project3 {
+  background: url("../images/p3/MeeshGG.png") no-repeat center center;
+  background-size: contain;
+}
+
+.project4 {
+  background: url("../images/p4/MN_OLY_ISO.png") no-repeat center center;
+  background-size: contain;
+}
+
+.project5 {
+  background: url("../images/p5/3060_Cart_FinalAssembly_1.png") no-repeat center center;
+  background-size: contain;
+}

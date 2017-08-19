@@ -1,0 +1,4 @@
+@mixin bckImg($url) {
+	background: url($url) no-repeat center center;
+	background-size: contain;
+}
