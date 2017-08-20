@@ -78,6 +78,15 @@ body {
   color: #9b31a0;
 }
 
+.intro_bkg {
+  background: url("../images/Landing_Title.png") no-repeat center center;
+  background-size: contain;
+  margin: auto;
+  padding: 15px;
+  height: auto;
+  width: 150px;
+}
+
 .projects_main {
   width: 100%;
   height: auto;
@@ -87,50 +96,76 @@ body {
 
 .project_container {
   display: inline-block;
-  margin: 50px;
+  margin: 20px;
   border-radius: 5px;
-}
-.project_container:hover {
-  background-color: rgba(73, 73, 73, 0.1);
 }
 
 .project1, .project2, .project3, .project4, .project5, .project6, .project7 {
   height: 200px;
   width: 200px;
+  margin: 20px;
 }
 
 .project1 {
-  background: url("../images/p1/ISLAND_1.png") no-repeat center center;
+  background: url("../images/p1/lndImgBW.png") no-repeat center center;
+  background-size: contain;
+}
+.project1:hover {
+  background: url("../images/p1/lndImgCL.png") no-repeat center center;
   background-size: contain;
 }
 
 .project2 {
-  background: url("../images/p2/CUBE_ELEV_ISO.png") no-repeat center center;
+  background: url("../images/p2/lndImgBW.png") no-repeat center center;
+  background-size: contain;
+}
+.project2:hover {
+  background: url("../images/p2/lndImgCL.png") no-repeat center center;
   background-size: contain;
 }
 
 .project3 {
-  background: url("../images/p3/MN_OLY_SQR.png") no-repeat center center;
+  background: url("../images/p3/lndImgBW.png") no-repeat center center;
+  background-size: contain;
+}
+.project3:hover {
+  background: url("../images/p3/lndImgCL.png") no-repeat center center;
   background-size: contain;
 }
 
 .project4 {
-  background: url("../images/p4/BENCH_PACKET_SQR.png") no-repeat center center;
+  background: url("../images/p4/lndImgBW.png") no-repeat center center;
+  background-size: contain;
+}
+.project4:hover {
+  background: url("../images/p4/lndImgCL.png") no-repeat center center;
   background-size: contain;
 }
 
 .project5 {
-  background: url("../images/p5/DSC_0319_SQR.png") no-repeat center center;
+  background: url("../images/p5/lndImgBW.png") no-repeat center center;
+  background-size: contain;
+}
+.project5:hover {
+  background: url("../images/p5/lndImgCL.png") no-repeat center center;
   background-size: contain;
 }
 
 .project6 {
-  background: url("../images/p6/GARAGE_SQR.png") no-repeat center center;
+  background: url("../images/p6/lndImgBW.png") no-repeat center center;
+  background-size: contain;
+}
+.project6:hover {
+  background: url("../images/p6/lndImgCL.png") no-repeat center center;
   background-size: contain;
 }
 
 .project7 {
-  background: url("../images/p7/MSPISO_SQR.png") no-repeat center center;
+  background: url("../images/p7/lndImgBW.png") no-repeat center center;
+  background-size: contain;
+}
+.project7:hover {
+  background: url("../images/p7/lndImgCL.png") no-repeat center center;
   background-size: contain;
 }
 
@@ -138,7 +173,7 @@ body {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  padding: 35px 0px;
+  padding: 30px 0px;
   background: linear-gradient(rgba(240, 240, 240, 0), #f0f0f0, #f0f0f0);
 }
 .navigation ul {
@@ -149,10 +184,16 @@ body {
   text-align: center;
 }
 .navigation li {
-  font-size: 12px;
   display: inline-block;
   padding: .35em 1em;
   border: 1px solid #494949;
   border-radius: 5px;
+}
+.navigation li:hover {
+  background-color: rgba(73, 73, 73, 0.1);
+}
+.navigation li a {
+  font-size: 14px;
   color: #9b31a0;
+  text-decoration: none;
 }

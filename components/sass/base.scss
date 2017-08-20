@@ -2,6 +2,8 @@ body {
 	background-color: $background-gry;
 }
 
+$intro_Img: "../images/Landing_Title.png";
+
 .intro {
 	position: relative;
 	width: 100%;
@@ -10,6 +12,7 @@ body {
 	font-family: $font-header;
 	color: rgba(0,0,0,0.75);
 	text-align: center;
+
 		h1 {
 			font-size: 18px;
 			padding-bottom: 0.5em;
@@ -21,3 +24,12 @@ body {
 		}
 
 }
+
+.intro_bkg {
+	@include bckImg($intro_Img);
+	margin: auto;
+	padding:15px;
+	height: auto;
+	width: 150px;
+}
+

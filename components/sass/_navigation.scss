@@ -2,7 +2,7 @@
 	position: fixed;
 	bottom: 0px;
 	width: 100%;
-	padding: 35px 0px;
+	padding: 30px 0px;
 	background: linear-gradient(rgba(240,240,240,0),rgba(240,240,240,1),rgba(240,240,240,1));
 		ul{
 			position: relative;
@@ -13,11 +13,17 @@
 		}
 
 		li{
-			font-size: 12px;
 			display: inline-block;
 			padding: .35em 1em;
 			border: 1px solid $nav-gry;
 			border-radius: 5px;
-			color: $nav-pnk;
+			&:hover{
+				background-color: $prj-gry;
+			}
+			a {
+				font-size: 14px;
+				color: $nav-pnk;
+				text-decoration: none;
+			}
 		}
 }
