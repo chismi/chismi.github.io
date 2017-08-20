@@ -24,52 +24,31 @@ $p7hovImg: '../images/p7/lndImgCL.png';
 
 .project1{
 	@extend %pimage;
-	@include bckImg($p1lndImg);
-	&:hover {
-		@include bckImg($p1hovImg);
-	}
+	@include preLoadHov($p1lndImg,$p1hovImg);
 }
 
 .project2{
 	@extend %pimage;
-	@include bckImg($p2lndImg);
-	&:hover {
-		@include bckImg($p2hovImg);
-	}
+	@include preLoadHov($p2lndImg,$p2hovImg);
 }
 
 .project3{
 	@extend %pimage;
-	@include bckImg($p3lndImg);
-	&:hover {
-		@include bckImg($p3hovImg);
-	}
+	@include preLoadHov($p3lndImg,$p3hovImg);
 }
 .project4{
 	@extend %pimage;
-	@include bckImg($p4lndImg);
-	&:hover {
-		@include bckImg($p4hovImg);
-	}
+	@include preLoadHov($p4lndImg,$p4hovImg);
 }
 .project5{
 	@extend %pimage;
-	@include bckImg($p5lndImg);
-	&:hover {
-		@include bckImg($p5hovImg);
-	}
+	@include preLoadHov($p5lndImg,$p5hovImg);
 }
 .project6{
 	@extend %pimage;
-	@include bckImg($p6lndImg);
-	&:hover {
-		@include bckImg($p6hovImg);
-	}
+	@include preLoadHov($p6lndImg,$p6hovImg);
 }
 .project7{
 	@extend %pimage;
-	@include bckImg($p7lndImg);
-	&:hover {
-		@include bckImg($p7hovImg);
-	}
+	@include preLoadHov($p7lndImg,$p7hovImg);
 }

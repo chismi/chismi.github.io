@@ -2,3 +2,13 @@
 	background: url($url) no-repeat center center;
 	background-size: contain;
 }
+
+@mixin preLoadHov($urlLand,$urlHover) {
+	background: url($urlLand) no-repeat center center,
+				url($urlHover) no-repeat -9999px -9999px;
+	background-size: contain;
+	&:hover {
+		background: url($urlHover) no-repeat center center;
+		background-size: contain;
+	}
+}

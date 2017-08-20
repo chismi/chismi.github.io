@@ -108,7 +108,7 @@ body {
 }
 
 .project1 {
-  background: url("../images/p1/lndImgBW.png") no-repeat center center;
+  background: url("../images/p1/lndImgBW.png") no-repeat center center, url("../images/p1/lndImgCL.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .project1:hover {
@@ -117,7 +117,7 @@ body {
 }
 
 .project2 {
-  background: url("../images/p2/lndImgBW.png") no-repeat center center;
+  background: url("../images/p2/lndImgBW.png") no-repeat center center, url("../images/p2/lndImgCL.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .project2:hover {
@@ -126,7 +126,7 @@ body {
 }
 
 .project3 {
-  background: url("../images/p3/lndImgBW.png") no-repeat center center;
+  background: url("../images/p3/lndImgBW.png") no-repeat center center, url("../images/p3/lndImgCL.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .project3:hover {
@@ -135,7 +135,7 @@ body {
 }
 
 .project4 {
-  background: url("../images/p4/lndImgBW.png") no-repeat center center;
+  background: url("../images/p4/lndImgBW.png") no-repeat center center, url("../images/p4/lndImgCL.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .project4:hover {
@@ -144,7 +144,7 @@ body {
 }
 
 .project5 {
-  background: url("../images/p5/lndImgBW.png") no-repeat center center;
+  background: url("../images/p5/lndImgBW.png") no-repeat center center, url("../images/p5/lndImgCL.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .project5:hover {
@@ -153,7 +153,7 @@ body {
 }
 
 .project6 {
-  background: url("../images/p6/lndImgBW.png") no-repeat center center;
+  background: url("../images/p6/lndImgBW.png") no-repeat center center, url("../images/p6/lndImgCL.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .project6:hover {
@@ -162,7 +162,7 @@ body {
 }
 
 .project7 {
-  background: url("../images/p7/lndImgBW.png") no-repeat center center;
+  background: url("../images/p7/lndImgBW.png") no-repeat center center, url("../images/p7/lndImgCL.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .project7:hover {
