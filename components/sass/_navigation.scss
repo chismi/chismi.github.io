@@ -17,13 +17,11 @@
 			padding: .35em 1em;
 			border: 1px solid $nav-gry;
 			border-radius: 5px;
+			font-size: 14px;
+			color: $nav-pnk;
+			text-decoration: none;
 			&:hover{
 				background-color: $prj-gry;
-			}
-			a {
-				font-size: 14px;
-				color: $nav-pnk;
-				text-decoration: none;
 			}
 		}
 }

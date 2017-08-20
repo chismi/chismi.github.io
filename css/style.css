@@ -57,6 +57,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 body {
   background-color: #e5e5e5;
+  text-align: center;
 }
 
 .intro {
@@ -188,12 +189,51 @@ body {
   padding: .35em 1em;
   border: 1px solid #494949;
   border-radius: 5px;
+  font-size: 14px;
+  color: #9b31a0;
+  text-decoration: none;
 }
 .navigation li:hover {
   background-color: rgba(73, 73, 73, 0.1);
 }
-.navigation li a {
+
+.holder {
+  position: relative;
+  top: 10vh;
+  height: auto;
+  margin: auto;
+  width: 500px;
+  display: block;
+  background: url("../images/Holder_Title.png") no-repeat center center;
+  background-size: contain;
+}
+.holder h1 {
+  color: #494949;
+  padding: 30px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.holder_nav {
+  position: relative;
+  top: 15vh;
+  height: auto;
+  text-align: center;
+}
+.holder_nav h1 {
+  display: block;
+  margin: auto;
+  width: 50px;
+  padding: .35em 1em;
+  border: 1px solid #494949;
+  border-radius: 5px;
+}
+.holder_nav h1:hover {
+  background-color: rgba(73, 73, 73, 0.1);
+}
+.holder_nav a {
   font-size: 14px;
-  color: #9b31a0;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
+  color: #9b31a0;
 }
