@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lora|Roboto|Roboto+Mono);
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, .navigation li, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -60,180 +60,159 @@ body {
   text-align: center;
 }
 
-.intro {
+h1 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding-bottom: 0.5em;
+  text-decoration: none;
+}
+
+h2, .navigation li {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  color: #9b31a0;
+  padding-top: 0.5em;
+  text-decoration: none;
+}
+
+.header {
   position: relative;
   width: 100%;
-  padding: 40px 0px 30px 0px;
-  border-radius: 3px;
-  font-family: "Roboto", sans-serif;
-  color: rgba(0, 0, 0, 0.75);
+  padding-top: 40px;
+  padding-bottom: 30px;
   text-align: center;
-}
-.intro h1 {
-  font-size: 18px;
-  padding-bottom: 0.5em;
-}
-.intro h2 {
-  font-size: 14px;
-  padding-top: 0.5em;
-  color: #9b31a0;
-}
-
-.intro_bkg {
-  background: url("../images/Landing_Title.png") no-repeat center center;
-  background-size: contain;
-  margin: auto;
-  padding: 15px;
-  height: auto;
-  width: 150px;
-}
-
-.projects_main {
-  width: 100%;
-  height: auto;
-  margin: 0 0;
-  text-align: center;
-}
-
-.project_container {
-  display: inline-block;
-  margin: 20px;
-  border-radius: 5px;
-}
-
-.project1, .project2, .project3, .project4, .project5, .project6, .project7 {
-  height: 200px;
-  width: 200px;
-  margin: 20px;
-}
-
-.project1 {
-  background: url("../images/p1/lndImgBW.png") no-repeat center center, url("../images/p1/lndImgCL.png") no-repeat -9999px -9999px;
-  background-size: contain;
-}
-.project1:hover {
-  background: url("../images/p1/lndImgCL.png") no-repeat center center;
-  background-size: contain;
-}
-
-.project2 {
-  background: url("../images/p2/lndImgBW.png") no-repeat center center, url("../images/p2/lndImgCL.png") no-repeat -9999px -9999px;
-  background-size: contain;
-}
-.project2:hover {
-  background: url("../images/p2/lndImgCL.png") no-repeat center center;
-  background-size: contain;
-}
-
-.project3 {
-  background: url("../images/p3/lndImgBW.png") no-repeat center center, url("../images/p3/lndImgCL.png") no-repeat -9999px -9999px;
-  background-size: contain;
-}
-.project3:hover {
-  background: url("../images/p3/lndImgCL.png") no-repeat center center;
-  background-size: contain;
-}
-
-.project4 {
-  background: url("../images/p4/lndImgBW.png") no-repeat center center, url("../images/p4/lndImgCL.png") no-repeat -9999px -9999px;
-  background-size: contain;
-}
-.project4:hover {
-  background: url("../images/p4/lndImgCL.png") no-repeat center center;
-  background-size: contain;
-}
-
-.project5 {
-  background: url("../images/p5/lndImgBW.png") no-repeat center center, url("../images/p5/lndImgCL.png") no-repeat -9999px -9999px;
-  background-size: contain;
-}
-.project5:hover {
-  background: url("../images/p5/lndImgCL.png") no-repeat center center;
-  background-size: contain;
-}
-
-.project6 {
-  background: url("../images/p6/lndImgBW.png") no-repeat center center, url("../images/p6/lndImgCL.png") no-repeat -9999px -9999px;
-  background-size: contain;
-}
-.project6:hover {
-  background: url("../images/p6/lndImgCL.png") no-repeat center center;
-  background-size: contain;
-}
-
-.project7 {
-  background: url("../images/p7/lndImgBW.png") no-repeat center center, url("../images/p7/lndImgCL.png") no-repeat -9999px -9999px;
-  background-size: contain;
-}
-.project7:hover {
-  background: url("../images/p7/lndImgCL.png") no-repeat center center;
-  background-size: contain;
+  background: none;
 }
 
 .navigation {
   position: fixed;
-  bottom: 0px;
   width: 100%;
-  padding: 30px 0px;
-  background: linear-gradient(rgba(240, 240, 240, 0), #f0f0f0, #f0f0f0);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background: linear-gradient(rgba(255, 255, 255, 0), #e5e5e5, #e5e5e5);
+  bottom: 0px;
 }
 .navigation ul {
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin: auto;
-  width: 70%;
-  font-family: "Roboto", sans-serif;
-  text-align: center;
+  height: auto;
+  width: auto;
+  background: url(none) no-repeat center center;
+  background-size: contain;
 }
 .navigation li {
   display: inline-block;
+  margin: 0 0.75em;
   padding: .35em 1em;
   border: 1px solid #494949;
   border-radius: 5px;
-  font-size: 14px;
-  color: #9b31a0;
-  text-decoration: none;
 }
 .navigation li:hover {
   background-color: rgba(73, 73, 73, 0.1);
 }
 
-.holder {
-  position: relative;
-  top: 10vh;
-  height: auto;
+.header_landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: auto;
-  width: 500px;
-  display: block;
-  background: url("../images/Holder_Title.png") no-repeat center center;
+  height: 75px;
+  width: 150px;
+  background: url("../images/Landing_Title.png") no-repeat center center;
   background-size: contain;
 }
-.holder h1 {
-  color: #494949;
-  padding: 30px;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
+
+.projects_main {
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  background: none;
 }
 
-.holder_nav {
-  position: relative;
-  top: 15vh;
-  height: auto;
-  text-align: center;
+.p1_landing, .p2_landing, .p3_landing, .p4_landing, .p5_landing, .p6_landing, .p7_landing {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 40px;
 }
-.holder_nav h1 {
-  display: block;
+
+.p1_landing {
+  background: url("../images/1523island/lndImgBW.png") no-repeat center center, url("../images/1523island/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p1_landing:hover {
+  background: url("../images/1523island/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p2_landing {
+  background: url("../images/cornellmodels/lndImgBW.png") no-repeat center center, url("../images/cornellmodels/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p2_landing:hover {
+  background: url("../images/cornellmodels/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p3_landing {
+  background: url("../images/sitedrawings/lndImgBW.png") no-repeat center center, url("../images/sitedrawings/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p3_landing:hover {
+  background: url("../images/sitedrawings/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p4_landing {
+  background: url("../images/127garage/lndImgBW.png") no-repeat center center, url("../images/127garage/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p4_landing:hover {
+  background: url("../images/127garage/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p5_landing {
+  background: url("../images/scenephotography/lndImgBW.png") no-repeat center center, url("../images/scenephotography/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p5_landing:hover {
+  background: url("../images/scenephotography/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p6_landing {
+  background: url("../images/koleshopdwgs/lndImgBW.png") no-repeat center center, url("../images/koleshopdwgs/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p6_landing:hover {
+  background: url("../images/koleshopdwgs/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p7_landing {
+  background: url("../images/mspbanner/lndImgBW.png") no-repeat center center, url("../images/mspbanner/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p7_landing:hover {
+  background: url("../images/mspbanner/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.holder_head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: auto;
-  width: 50px;
-  padding: .35em 1em;
-  border: 1px solid #494949;
-  border-radius: 5px;
-}
-.holder_nav h1:hover {
-  background-color: rgba(73, 73, 73, 0.1);
-}
-.holder_nav a {
-  font-size: 14px;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  color: #9b31a0;
+  height: 100px;
+  width: 500px;
+  background: url("../images/Holder_Title.png") no-repeat center center;
+  background-size: contain;
+  margin: 30px auto;
 }

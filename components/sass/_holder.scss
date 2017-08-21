@@ -1,42 +1,5 @@
-.holder {
-	position: relative;
-	top: 10vh;
-	height: auto;
-	margin: auto;
-	width: 500px;
-	display: block;
-	@include bckImg($holder_intro_Img);
-		h1 {
-			color: $nav-gry;
-			padding: 30px;
-			font-size: 18px;
-			font-family: $font-header;
-		}
-
-}
-
-.holder_nav {
-	position: relative;
-	top: 15vh;
-	height: auto;
-	text-align: center;
-		h1{
-			display: block;
-			margin: auto;
-			width: 50px;
-			padding: .35em 1em;
-			border: 1px solid $nav-gry;
-			border-radius: 5px;
-			&:hover{
-				background-color: $prj-gry;
-			}
-		}
-		a {
-			font-size: 14px;
-			font-family: $font-header;
-			text-decoration: none;
-			color: $nav-pnk;
-		}
-	
-
+.holder_head {
+	@include centerContents ($height: 100px, $width: 500px, $background-image: $image-holderhead,
+			$flex-direction: column);
+	margin: 30px auto;
 }

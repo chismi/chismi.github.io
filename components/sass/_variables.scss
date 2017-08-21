@@ -2,16 +2,33 @@
 
 //fonts
 $font-header: 'Roboto', sans-serif;
-$font-header-serif: 'Lora', serif;
-$font-description: 'Roboto Mono', monospace;
+$font-subheader: 'Roboto', sans-serif;
+$font-description: 'Lora', serif;
+$font-other: 'Roboto Mono', monospace;
 
-//colors
-$background-gry: #e5e5e5;
-$nav-gry: rgb(73, 73, 73);
-$nav-pnk: rgb(155, 49, 160);
-$prj-pnk: rgba(155, 49, 160,0.2);
-$prj-gry: rgba(73, 73, 73,0.10);
+//color store
+$light-gray: #e5e5e5;
+$dark-gray: rgb(73, 73, 73);
+$dark-gray-tsp: rgba(73, 73, 73,0.10); 
+$portfolio-pink: rgb(155, 49, 160);
+$transparent: rgba(255,255,255,0);
 
-//image urls
-$intro_Img: "../images/Landing_Title.png";
-$holder_intro_Img: "../images/Holder_Title.png";
+//color Assign
+$color-background: $light-gray;
+$color-header: black;
+$color-subheader: $portfolio-pink;
+
+//Heading Images
+$image-landinghead: "../images/Landing_Title.png";
+$image-holderhead: "../images/Holder_Title.png";
+
+//project index
+$project-index: (
+	'p1': '1523island',
+	'p2': 'cornellmodels',
+	'p3': 'sitedrawings',
+	'p4': '127garage',
+	'p5': 'scenephotography',
+	'p6': 'koleshopdwgs',
+	'p7': 'mspbanner'
+);

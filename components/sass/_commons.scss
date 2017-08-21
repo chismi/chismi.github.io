@@ -1,0 +1,50 @@
+body {
+	background-color: $color-background;
+	text-align: center;
+}
+
+//header text
+h1 {
+	font-size: 18px;
+	font-family: $font-header;
+	color: $color-header;
+	padding-bottom: 0.5em;
+	text-decoration: none;
+}
+
+//subheader text
+h2 {
+	font-size: 14px;
+	font-family: $font-subheader;
+	color: $color-subheader;
+	padding-top: 0.5em;
+	text-decoration: none;
+}
+
+//header container -- see pages for container images
+.header {
+	@include centerContainer ($padding-top: 40px, $padding-bottom: 30px);
+}
+
+//navigation block
+.navigation {
+	@include centerContainer($position: fixed, $padding-top: 30px,
+			$padding-bottom: 30px, $background: linear-gradient($transparent,$color-background,$color-background));
+	bottom: 0px;
+
+		ul{
+			@include centerContents();
+		}
+
+		li{
+			display: inline-block;
+			margin: 0 0.75em;
+			padding: .35em 1em;
+			border: 1px solid $dark-gray;
+			border-radius: 5px;
+			@extend h2;
+				&:hover{
+					background-color: $dark-gray-tsp;
+				}
+}
+}

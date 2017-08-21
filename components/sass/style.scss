@@ -5,8 +5,6 @@
 //local imports
 @import "variables";
 @import "mixins";
-@import "base.scss";
-@import "projectbase";
-@import "projectimages";
-@import "navigation";
+@import "commons";
+@import "landing";
 @import "holder";
