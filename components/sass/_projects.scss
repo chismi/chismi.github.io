@@ -1,0 +1,8 @@
+//About styling
+.block {
+	@include centerContainer ();
+}
+
+.about_block{
+	@include centerContents ($height: 50vh, $width: 75vw, $flex-direction: column)
+}

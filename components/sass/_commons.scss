@@ -21,6 +21,16 @@ h2 {
 	text-decoration: none;
 }
 
+//description text
+p {
+	font-size: 12px;
+	font-family: $font-description;
+	color: $color-description;
+	text-decoration: none;
+	line-height: 1.5em;
+	padding: 1em;
+}
+
 //header container -- see pages for container images
 .header {
 	@include centerContainer ($padding-top: 40px, $padding-bottom: 30px);

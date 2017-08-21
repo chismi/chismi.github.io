@@ -76,6 +76,15 @@ h2, .navigation li {
   text-decoration: none;
 }
 
+p {
+  font-size: 12px;
+  font-family: "Lora", serif;
+  color: #494949;
+  text-decoration: none;
+  line-height: 1.5em;
+  padding: 1em;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -202,6 +211,26 @@ h2, .navigation li {
 }
 .p7_landing:hover {
   background: url("../images/mspbanner/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.block {
+  position: relative;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  background: none;
+}
+
+.about_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: 50vh;
+  width: 75vw;
+  background: url(none) no-repeat center center;
   background-size: contain;
 }
 
