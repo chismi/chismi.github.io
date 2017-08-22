@@ -22,6 +22,8 @@ $color-description: $dark-gray;
 //Heading Images
 $image-landinghead: "../images/Landing_Title.png";
 $image-holderhead: "../images/Holder_Title.png";
+$image-projecthead: "../images/Project_Title.png";
+$image-projectheadend: "../images/Project_End_Title.png";
 
 //project index
 $project-index: (
@@ -33,3 +35,9 @@ $project-index: (
 	'p6': 'koleshopdwgs',
 	'p7': 'mspbanner'
 );
+
+//step images
+$image-stepleft-hold: '../images/stepleft.png';
+$image-stepleft-highlight: '../images/steplefthighlight.png';
+$image-stepright-hold: '../images/stepright.png';
+$image-stepright-highlight: '../images/steprighthighlight.png';

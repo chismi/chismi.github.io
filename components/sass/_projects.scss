@@ -1,8 +1,73 @@
 //About styling
-.block {
-	@include centerContainer ();
+.about_block{
+	@include centerContents ($height: 50vh, $width: 75vw, $flex-direction: column);
 }
 
-.about_block{
-	@include centerContents ($height: 50vh, $width: 75vw, $flex-direction: column)
+//project page styling
+.header_project {
+	@include centerContents($height: 75px, $width: 150px, 
+			$background-image: $image-projecthead, $flex-direction: column);
 }
+
+//project page styling
+.header_project_end {
+	@include centerContents($height: 75px, $width: 150px, 
+			$background-image: $image-projectheadend, $flex-direction: column);
+}
+
+
+.step_back {
+	@include centerContents ($flex-direction: column);
+}
+
+//scroll container
+.scroll_container{
+	height: 100%;
+	width: 75vw;
+	overflow: scroll;
+}
+
+//project page styling
+.step_forward {
+	@include centerContents ($flex-direction: column);
+}
+
+//step buttons
+.step_button_L_end {
+	height: 50px;
+	width: 50px;
+}
+
+.step_button_L {
+	@extend .step_button_L_end;
+	@include bckImg($image-stepleft-hold);
+	&:hover {
+		@include bckImg($image-stepleft-highlight);
+	}
+}
+
+.step_button_R_end {
+	height: 50px;
+	width: 50px;
+}
+
+.step_button_R {
+	@extend .step_button_R_end;
+	@include bckImg($image-stepright-hold);
+	&:hover {
+		@include bckImg($image-stepright-highlight);
+	}
+}
+
+//project images
+@each $p-num, $title in $project-index {
+	@for $i from 1 through 4 {
+		.#{$p-num}Im#{$i} {
+			@include bckImg("../images/#{$title}/Im#{$i}.png");
+			width: 75vw;
+			height: 75vh;
+			margin: 20px 0px;
+		}
+	}
+}
+

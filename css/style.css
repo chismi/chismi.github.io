@@ -64,8 +64,9 @@ h1 {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
   color: black;
-  padding-bottom: 0.5em;
+  padding: 0 0.25em 0.5em 0.25em;
   text-decoration: none;
+  line-height: 1.25em;
 }
 
 h2, .navigation li {
@@ -85,11 +86,23 @@ p {
   padding: 1em;
 }
 
+.full_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+  background: url(none) no-repeat center center;
+  background-size: contain;
+  position: relative;
+}
+
 .header {
   position: relative;
   width: 100%;
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   text-align: center;
   background: none;
 }
@@ -124,6 +137,12 @@ p {
   background-color: rgba(73, 73, 73, 0.1);
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
 .header_landing {
   display: flex;
   flex-direction: column;
@@ -148,7 +167,9 @@ p {
   display: inline-block;
   height: 200px;
   width: 200px;
-  margin: 40px;
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .p1_landing {
@@ -214,15 +235,6 @@ p {
   background-size: contain;
 }
 
-.block {
-  position: relative;
-  width: 100%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  text-align: center;
-  background: none;
-}
-
 .about_block {
   display: flex;
   flex-direction: column;
@@ -232,6 +244,308 @@ p {
   width: 75vw;
   background: url(none) no-repeat center center;
   background-size: contain;
+}
+
+.header_project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: 75px;
+  width: 150px;
+  background: url("../images/Project_Title.png") no-repeat center center;
+  background-size: contain;
+}
+
+.header_project_end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: 75px;
+  width: 150px;
+  background: url("../images/Project_End_Title.png") no-repeat center center;
+  background-size: contain;
+}
+
+.step_back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  width: auto;
+  background: url(none) no-repeat center center;
+  background-size: contain;
+}
+
+.scroll_container {
+  height: 100%;
+  width: 75vw;
+  overflow: scroll;
+}
+
+.step_forward {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  width: auto;
+  background: url(none) no-repeat center center;
+  background-size: contain;
+}
+
+.step_button_L_end, .step_button_L {
+  height: 50px;
+  width: 50px;
+}
+
+.step_button_L {
+  background: url("../images/stepleft.png") no-repeat center center;
+  background-size: contain;
+}
+.step_button_L:hover {
+  background: url("../images/steplefthighlight.png") no-repeat center center;
+  background-size: contain;
+}
+
+.step_button_R_end, .step_button_R {
+  height: 50px;
+  width: 50px;
+}
+
+.step_button_R {
+  background: url("../images/stepright.png") no-repeat center center;
+  background-size: contain;
+}
+.step_button_R:hover {
+  background: url("../images/steprighthighlight.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p1Im1 {
+  background: url("../images/1523island/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p1Im2 {
+  background: url("../images/1523island/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p1Im3 {
+  background: url("../images/1523island/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p1Im4 {
+  background: url("../images/1523island/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p2Im1 {
+  background: url("../images/cornellmodels/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p2Im2 {
+  background: url("../images/cornellmodels/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p2Im3 {
+  background: url("../images/cornellmodels/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p2Im4 {
+  background: url("../images/cornellmodels/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p3Im1 {
+  background: url("../images/sitedrawings/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p3Im2 {
+  background: url("../images/sitedrawings/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p3Im3 {
+  background: url("../images/sitedrawings/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p3Im4 {
+  background: url("../images/sitedrawings/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p4Im1 {
+  background: url("../images/127garage/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p4Im2 {
+  background: url("../images/127garage/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p4Im3 {
+  background: url("../images/127garage/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p4Im4 {
+  background: url("../images/127garage/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p5Im1 {
+  background: url("../images/scenephotography/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p5Im2 {
+  background: url("../images/scenephotography/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p5Im3 {
+  background: url("../images/scenephotography/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p5Im4 {
+  background: url("../images/scenephotography/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p6Im1 {
+  background: url("../images/koleshopdwgs/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p6Im2 {
+  background: url("../images/koleshopdwgs/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p6Im3 {
+  background: url("../images/koleshopdwgs/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p6Im4 {
+  background: url("../images/koleshopdwgs/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p7Im1 {
+  background: url("../images/mspbanner/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p7Im2 {
+  background: url("../images/mspbanner/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p7Im3 {
+  background: url("../images/mspbanner/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
+}
+
+.p7Im4 {
+  background: url("../images/mspbanner/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 75vh;
+  margin: 20px 0px;
 }
 
 .holder_head {
