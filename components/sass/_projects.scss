@@ -40,7 +40,9 @@
 
 .step_button_L {
 	@extend .step_button_L_end;
-	@include bckImg($image-stepleft-hold);
+		background: url($image-stepleft-hold) no-repeat center center,
+				url($image-stepleft-highlight) no-repeat -9999px -9999px;
+				background-size: contain;
 	&:hover {
 		@include bckImg($image-stepleft-highlight);
 	}
@@ -53,7 +55,9 @@
 
 .step_button_R {
 	@extend .step_button_R_end;
-	@include bckImg($image-stepright-hold);
+	background: url($image-stepright-hold) no-repeat center center,
+				url($image-stepright-highlight) no-repeat -9999px -9999px;
+				background-size: contain;
 	&:hover {
 		@include bckImg($image-stepright-highlight);
 	}

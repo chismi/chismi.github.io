@@ -113,7 +113,7 @@ p {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  background: linear-gradient(rgba(255, 255, 255, 0), #e5e5e5, #e5e5e5);
+  background: linear-gradient(rgba(229, 229, 229, 0), #e5e5e5, #e5e5e5);
   bottom: 0px;
 }
 .navigation ul {
@@ -302,7 +302,7 @@ p {
 }
 
 .step_button_L {
-  background: url("../images/stepleft.png") no-repeat center center;
+  background: url("../images/stepleft.png") no-repeat center center, url("../images/steplefthighlight.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .step_button_L:hover {
@@ -316,7 +316,7 @@ p {
 }
 
 .step_button_R {
-  background: url("../images/stepright.png") no-repeat center center;
+  background: url("../images/stepright.png") no-repeat center center, url("../images/steprighthighlight.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .step_button_R:hover {
