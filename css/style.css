@@ -299,6 +299,11 @@ p {
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
+.scroll_container ::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
 
 .step_forward {
   display: flex;
@@ -591,7 +596,6 @@ p {
   border-radius: 10px;
   cursor: pointer;
   display: none;
-  -webkit-appearance: none;
 }
 .description_text:hover {
   background: rgba(155, 49, 160, 0.75);

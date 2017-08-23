@@ -30,6 +30,10 @@
 	overflow: scroll;
 	position: relative;
 	-webkit-overflow-scrolling: touch;
+	::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
 }
 
 //project page styling
@@ -97,7 +101,6 @@
 	border-radius: 10px;
 	cursor: pointer;
 	display: none;
-	-webkit-appearance: none;
 	&:hover {
 		background: $portfolio-pink-tsp;
 	}
