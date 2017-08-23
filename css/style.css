@@ -597,7 +597,7 @@ p {
 
 .description_holder {
   border: 1px solid #494949;
-  background-color: rgba(229, 229, 229, 0.5);
+  background-color: rgba(229, 229, 229, 0.8);
   border-radius: 5px;
   width: 150px;
   margin: auto;

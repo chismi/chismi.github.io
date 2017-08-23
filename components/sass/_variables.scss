@@ -8,7 +8,7 @@ $font-other: 'Roboto Mono', monospace;
 
 //color store
 $light-gray: rgb(229,229,229);
-$light-gray-tsp: rgba(229,229,229,0.50);
+$light-gray-tsp: rgba(229,229,229,0.80);
 $dark-gray: rgb(73, 73, 73);
 $med-gray: rgb(150, 150, 150);
 $dark-gray-tsp: rgba(73, 73, 73,0.10); 
@@ -23,7 +23,7 @@ $color-background: $light-gray;
 $color-header: black;
 $color-subheader: $portfolio-pink;
 $color-description: $dark-gray;
-$color-button-background: $med-gray;
+$color-button-background: $light-gray-tsp;
 $color-button-text: $portfolio-pink;
 
 //Heading Images
