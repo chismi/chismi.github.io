@@ -23,6 +23,16 @@ h2 {
 	text-decoration: none;
 }
 
+//button text
+h3 {
+	font-size: 14px;
+	font-family: $font-subheader;
+	color: $color-button-text;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	text-decoration: none;
+}
+
 //description text
 p {
 	font-size: 12px;

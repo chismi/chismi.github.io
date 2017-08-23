@@ -8,10 +8,12 @@ $font-other: 'Roboto Mono', monospace;
 
 //color store
 $light-gray: rgb(229,229,229);
+$light-gray-tsp: rgba(229,229,229,0.50);
 $dark-gray: rgb(73, 73, 73);
+$med-gray: rgb(150, 150, 150);
 $dark-gray-tsp: rgba(73, 73, 73,0.10); 
 $portfolio-pink: rgb(155, 49, 160);
-$portfolio-pink-tsp: rgba(155, 49, 160,0.5);
+$portfolio-pink-tsp: rgba(155, 49, 160,0.75);
 $transparent: rgba(229,229,229,0);
 $mint: rgb(149, 214, 189);
 $mint-tsp: rgba(149, 214, 189,0.75);
@@ -21,7 +23,8 @@ $color-background: $light-gray;
 $color-header: black;
 $color-subheader: $portfolio-pink;
 $color-description: $dark-gray;
-$button-background: $mint-tsp;
+$color-button-background: $med-gray;
+$color-button-text: $portfolio-pink;
 
 //Heading Images
 $image-landinghead: "../images/Landing_Title.png";
