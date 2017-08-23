@@ -574,6 +574,7 @@ p {
   background: none;
   left: 0px;
   bottom: 60px;
+  background-color: black;
 }
 
 .description_text {
