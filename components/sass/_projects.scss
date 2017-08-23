@@ -84,7 +84,8 @@
 
 //description box
 .description_container {
-	@include centerContainer($position: fixed, $padding-top: 10px, $padding-bottom: 10px);
+	@include centerContainer($position: absolute, $padding-top: 10px, $padding-bottom: 10px);
+	left: 0px;
 	bottom: 60px;
 }
 
@@ -93,8 +94,8 @@
 	background: $color-background;
 	border: 1px solid $dark-gray;
 	border-radius: 10px;
-	display: none;
 	cursor: pointer;
+	display: none;
 	&:hover {
 		background: $portfolio-pink-tsp;
 	}
@@ -105,7 +106,6 @@
 	border-radius: 5px;
 	width: 150px;
 	margin: auto;
-	display: block;
 	cursor: pointer;
 	&:hover {
 		background: $portfolio-pink-tsp;

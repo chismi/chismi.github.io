@@ -566,12 +566,13 @@ p {
 }
 
 .description_container {
-  position: fixed;
+  position: absolute;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
   background: none;
+  left: 0px;
   bottom: 60px;
 }
 
@@ -587,8 +588,8 @@ p {
   background: #e5e5e5;
   border: 1px solid #494949;
   border-radius: 10px;
-  display: none;
   cursor: pointer;
+  display: none;
 }
 .description_text:hover {
   background: rgba(155, 49, 160, 0.75);
@@ -600,7 +601,6 @@ p {
   border-radius: 5px;
   width: 150px;
   margin: auto;
-  display: block;
   cursor: pointer;
 }
 .description_holder:hover {
