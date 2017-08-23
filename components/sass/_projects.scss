@@ -96,6 +96,7 @@
 	border-radius: 10px;
 	cursor: pointer;
 	display: none;
+	-webkit-appearance: none;
 	&:hover {
 		background: $portfolio-pink-tsp;
 	}
@@ -107,6 +108,7 @@
 	width: 150px;
 	margin: auto;
 	cursor: pointer;
+	-webkit-appearance: none;
 	&:hover {
 		background: $portfolio-pink-tsp;
 	}

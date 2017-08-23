@@ -590,6 +590,7 @@ p {
   border-radius: 10px;
   cursor: pointer;
   display: none;
+  -webkit-appearance: none;
 }
 .description_text:hover {
   background: rgba(155, 49, 160, 0.75);
@@ -602,6 +603,7 @@ p {
   width: 150px;
   margin: auto;
   cursor: pointer;
+  -webkit-appearance: none;
 }
 .description_holder:hover {
   background: rgba(155, 49, 160, 0.75);
