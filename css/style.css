@@ -74,6 +74,7 @@ h2, .navigation li {
   font-family: "Roboto", sans-serif;
   color: #9b31a0;
   padding-top: 0.5em;
+  padding-bottom: 0.5em;
   text-decoration: none;
 }
 
@@ -277,12 +278,16 @@ p {
   width: auto;
   background: url(none) no-repeat center center;
   background-size: contain;
+  position: absolute;
+  height: 100%;
+  left: 0;
 }
 
 .scroll_container {
   height: 100%;
   width: 75vw;
   overflow: scroll;
+  position: relative;
 }
 
 .step_forward {
@@ -294,6 +299,9 @@ p {
   width: auto;
   background: url(none) no-repeat center center;
   background-size: contain;
+  position: absolute;
+  height: 100%;
+  right: 0;
 }
 
 .step_button_L_end, .step_button_L {
@@ -546,6 +554,47 @@ p {
   width: 75vw;
   height: 50vh;
   margin: 20px 0px;
+}
+
+.description_container {
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background: none;
+  bottom: 60px;
+}
+
+.description_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  height: auto;
+  width: 75vw;
+  background: url(none) no-repeat center center;
+  background-size: contain;
+  background: #e5e5e5;
+  border: 1px solid #494949;
+  border-radius: 10px;
+  display: none;
+  cursor: pointer;
+}
+.description_text:hover {
+  background: rgba(155, 49, 160, 0.5);
+}
+
+.description_holder {
+  background: #e5e5e5;
+  border-radius: 5px;
+  width: 150px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+}
+.description_holder:hover {
+  background: rgba(155, 49, 160, 0.5);
 }
 
 .holder_head {

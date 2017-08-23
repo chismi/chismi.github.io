@@ -8,7 +8,8 @@ var gulp = require('gulp'),
 
 
 var coffeeSources = ['components/coffee/*.coffee'];
-var jsSources = ['components/scripts/descriptions.js'];
+var jsSources = ['components/scripts/descriptions.js',
+				'components/scripts/buttons.js'];
 var sassSources = ['components/sass/style.scss'];
 var htmlSources = ['*.html',
 					'pages/*.html'];

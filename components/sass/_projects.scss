@@ -18,6 +18,9 @@
 
 .step_back {
 	@include centerContents ($flex-direction: column);
+	position: absolute;
+	height: 100%;
+	left: 0;
 }
 
 //scroll container
@@ -25,11 +28,15 @@
 	height: 100%;
 	width: 75vw;
 	overflow: scroll;
+	position: relative;
 }
 
 //project page styling
 .step_forward {
 	@include centerContents ($flex-direction: column);
+	position: absolute;
+	height: 100%;
+	right: 0;
 }
 
 //step buttons
@@ -75,3 +82,31 @@
 	}
 }
 
+//description box
+.description_container {
+	@include centerContainer($position: fixed, $padding-top: 10px, $padding-bottom: 10px);
+	bottom: 60px;
+}
+
+.description_text {
+	@include centerContents($width: 75vw);
+	background: $color-background;
+	border: 1px solid $dark-gray;
+	border-radius: 10px;
+	display: none;
+	cursor: pointer;
+	&:hover {
+		background: $portfolio-pink-tsp;
+	}
+}
+.description_holder {
+	background: $color-background;
+	border-radius: 5px;
+	width: 150px;
+	margin: auto;
+	display: block;
+	cursor: pointer;
+	&:hover {
+		background: $portfolio-pink-tsp;
+	}
+}
