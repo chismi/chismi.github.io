@@ -106,6 +106,7 @@ p {
   background: url(none) no-repeat center center;
   background-size: contain;
   position: relative;
+  overflow: hidden;
 }
 
 .header {
@@ -289,7 +290,7 @@ p {
   background-size: contain;
   position: absolute;
   height: 100%;
-  left: 0;
+  left: 5vw;
 }
 
 .scroll_container {
@@ -299,10 +300,9 @@ p {
   position: relative;
   -webkit-overflow-scrolling: touch;
 }
-.scroll_container ::-webkit-scrollbar {
-  width: 0px;
-  background: transparent;
-  /* make scrollbar transparent */
+
+.scroll_container::-webkit-scrollbar {
+  display: none;
 }
 
 .step_forward {
@@ -316,7 +316,7 @@ p {
   background-size: contain;
   position: absolute;
   height: 100%;
-  right: 0;
+  right: 5vw;
 }
 
 .step_button_L_end, .step_button_L {
@@ -351,224 +351,231 @@ p {
   background: url("../images/1523island/Im1.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p1Im2 {
   background: url("../images/1523island/Im2.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p1Im3 {
   background: url("../images/1523island/Im3.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p1Im4 {
   background: url("../images/1523island/Im4.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
+  margin-bottom: 100px;
 }
 
 .p2Im1 {
   background: url("../images/cornellmodels/Im1.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p2Im2 {
   background: url("../images/cornellmodels/Im2.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p2Im3 {
   background: url("../images/cornellmodels/Im3.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p2Im4 {
   background: url("../images/cornellmodels/Im4.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
+  margin-bottom: 100px;
 }
 
 .p3Im1 {
   background: url("../images/sitedrawings/Im1.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p3Im2 {
   background: url("../images/sitedrawings/Im2.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p3Im3 {
   background: url("../images/sitedrawings/Im3.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p3Im4 {
   background: url("../images/sitedrawings/Im4.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
+  margin-bottom: 100px;
 }
 
 .p4Im1 {
   background: url("../images/127garage/Im1.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p4Im2 {
   background: url("../images/127garage/Im2.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p4Im3 {
   background: url("../images/127garage/Im3.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p4Im4 {
   background: url("../images/127garage/Im4.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
+  margin-bottom: 100px;
 }
 
 .p5Im1 {
   background: url("../images/scenephotography/Im1.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p5Im2 {
   background: url("../images/scenephotography/Im2.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p5Im3 {
   background: url("../images/scenephotography/Im3.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p5Im4 {
   background: url("../images/scenephotography/Im4.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
+  margin-bottom: 100px;
 }
 
 .p6Im1 {
   background: url("../images/koleshopdwgs/Im1.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p6Im2 {
   background: url("../images/koleshopdwgs/Im2.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p6Im3 {
   background: url("../images/koleshopdwgs/Im3.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p6Im4 {
   background: url("../images/koleshopdwgs/Im4.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
+  margin-bottom: 100px;
 }
 
 .p7Im1 {
   background: url("../images/mspbanner/Im1.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p7Im2 {
   background: url("../images/mspbanner/Im2.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p7Im3 {
   background: url("../images/mspbanner/Im3.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
 }
 
 .p7Im4 {
   background: url("../images/mspbanner/Im4.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
-  height: 50vh;
-  margin: 20px 0px;
+  height: 50vw;
+  margin: 5vw 0px;
+  margin-bottom: 100px;
 }
 
 .description_container {

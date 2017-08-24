@@ -20,7 +20,7 @@
 	@include centerContents ($flex-direction: column);
 	position: absolute;
 	height: 100%;
-	left: 0;
+	left: 5vw;
 }
 
 //scroll container
@@ -30,18 +30,18 @@
 	overflow: scroll;
 	position: relative;
 	-webkit-overflow-scrolling: touch;
-	::-webkit-scrollbar {
-    width: 0px;
-    background: transparent; /* make scrollbar transparent */
 }
+.scroll_container::-webkit-scrollbar {
+    display: none;
 }
+
 
 //project page styling
 .step_forward {
 	@include centerContents ($flex-direction: column);
 	position: absolute;
 	height: 100%;
-	right: 0;
+	right: 5vw;
 }
 
 //step buttons
@@ -81,8 +81,11 @@
 		.#{$p-num}Im#{$i} {
 			@include bckImg("../images/#{$title}/Im#{$i}.png");
 			width: 75vw;
-			height: 50vh;
-			margin: 20px 0px;
+			height: 50vw;
+			margin: 5vw 0px;
+			@if $i == 4 {
+				margin-bottom: 100px;
+				}
 		}
 	}
 }
@@ -117,3 +120,6 @@
 		background: $portfolio-pink-tsp;
 	}
 }
+
+//Scroll Padding
+
