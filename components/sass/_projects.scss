@@ -81,10 +81,10 @@
 		.#{$p-num}Im#{$i} {
 			@include bckImg("../images/#{$title}/Im#{$i}.png");
 			width: 75vw;
-			height: 50vw;
-			margin: 5vw 0px;
+			height: 35vw;
+			margin-bottom: 10vw;
 			@if $i == 4 {
-				margin-bottom: 100px;
+				margin-bottom: 150px;
 				}
 		}
 	}
