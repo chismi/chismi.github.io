@@ -174,7 +174,7 @@ p {
   background: none;
 }
 
-.p1_landing, .p2_landing, .p3_landing, .p4_landing, .p5_landing, .p6_landing, .p7_landing, .p8_landing, .p9_landing, .p10_landing {
+.p1_landing, .p2_landing, .p3_landing, .p4_landing, .p5_landing, .p6_landing, .p7_landing, .p8_landing, .p9_landing, .p10_landing, .p11_landing, .p12_landing {
   display: inline-block;
   height: 200px;
   width: 200px;
@@ -265,11 +265,29 @@ p {
 }
 
 .p10_landing {
-  background: url("../images/mspbanner/lndImgBW.png") no-repeat center center, url("../images/mspbanner/lndImgCL.png") no-repeat -9999px -9999px;
+  background: url("../images/summerstudio/lndImgBW.png") no-repeat center center, url("../images/summerstudio/lndImgCL.png") no-repeat -9999px -9999px;
   background-size: contain;
 }
 .p10_landing:hover {
+  background: url("../images/summerstudio/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p11_landing {
+  background: url("../images/mspbanner/lndImgBW.png") no-repeat center center, url("../images/mspbanner/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p11_landing:hover {
   background: url("../images/mspbanner/lndImgCL.png") no-repeat center center;
+  background-size: contain;
+}
+
+.p12_landing {
+  background: url("../images/dresser/lndImgBW.png") no-repeat center center, url("../images/dresser/lndImgCL.png") no-repeat -9999px -9999px;
+  background-size: contain;
+}
+.p12_landing:hover {
+  background: url("../images/dresser/lndImgCL.png") no-repeat center center;
   background-size: contain;
 }
 
@@ -672,7 +690,7 @@ p {
 }
 
 .p10Im1 {
-  background: url("../images/mspbanner/Im1.png") no-repeat center center;
+  background: url("../images/summerstudio/Im1.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
   height: 35vw;
@@ -680,7 +698,7 @@ p {
 }
 
 .p10Im2 {
-  background: url("../images/mspbanner/Im2.png") no-repeat center center;
+  background: url("../images/summerstudio/Im2.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
   height: 35vw;
@@ -688,7 +706,7 @@ p {
 }
 
 .p10Im3 {
-  background: url("../images/mspbanner/Im3.png") no-repeat center center;
+  background: url("../images/summerstudio/Im3.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
   height: 35vw;
@@ -696,7 +714,73 @@ p {
 }
 
 .p10Im4 {
+  background: url("../images/summerstudio/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 35vw;
+  margin-bottom: 10vw;
+  margin-bottom: 150px;
+}
+
+.p11Im1 {
+  background: url("../images/mspbanner/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 35vw;
+  margin-bottom: 10vw;
+}
+
+.p11Im2 {
+  background: url("../images/mspbanner/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 35vw;
+  margin-bottom: 10vw;
+}
+
+.p11Im3 {
+  background: url("../images/mspbanner/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 35vw;
+  margin-bottom: 10vw;
+}
+
+.p11Im4 {
   background: url("../images/mspbanner/Im4.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 35vw;
+  margin-bottom: 10vw;
+  margin-bottom: 150px;
+}
+
+.p12Im1 {
+  background: url("../images/dresser/Im1.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 35vw;
+  margin-bottom: 10vw;
+}
+
+.p12Im2 {
+  background: url("../images/dresser/Im2.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 35vw;
+  margin-bottom: 10vw;
+}
+
+.p12Im3 {
+  background: url("../images/dresser/Im3.png") no-repeat center center;
+  background-size: contain;
+  width: 75vw;
+  height: 35vw;
+  margin-bottom: 10vw;
+}
+
+.p12Im4 {
+  background: url("../images/dresser/Im4.png") no-repeat center center;
   background-size: contain;
   width: 75vw;
   height: 35vw;
