@@ -7,6 +7,7 @@ $font-description: 'Lora', serif;
 $font-other: 'Roboto Mono', monospace;
 
 //color store
+$white-gray: rgb(245,245,245);
 $light-gray: rgb(229,229,229);
 $light-gray-tsp: rgba(229,229,229,0.80);
 $dark-gray: rgb(73, 73, 73);
@@ -19,6 +20,7 @@ $mint: rgb(149, 214, 189);
 $mint-tsp: rgba(149, 214, 189,0.75);
 
 //color Assign
+$color-textbackground: $white-gray;
 $color-background: $light-gray;
 $color-header: black;
 $color-subheader: $portfolio-pink;

@@ -99,7 +99,7 @@
 
 .description_text {
 	@include centerContents($width: 75vw);
-	background: $color-background;
+	background: $color-textbackground;
 	border: 1px solid $dark-gray;
 	border-radius: 10px;
 	cursor: pointer;
@@ -110,7 +110,7 @@
 }
 .description_holder {
 	border: 1px solid $dark-gray;
-	background-color: $color-button-background;
+	background-color: $color-textbackground;
 	border-radius: 5px;
 	width: 150px;
 	margin: auto;

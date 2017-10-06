@@ -70,6 +70,7 @@ p {
 			margin: 0 0.75em;
 			padding: .35em 1em;
 			border: 1px solid $dark-gray;
+			background-color: $color-textbackground;
 			border-radius: 5px;
 			@extend h2;
 				&:hover{

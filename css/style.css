@@ -142,6 +142,7 @@ p {
   margin: 0 0.75em;
   padding: .35em 1em;
   border: 1px solid #494949;
+  background-color: whitesmoke;
   border-radius: 5px;
 }
 .navigation li:hover {
@@ -808,7 +809,7 @@ p {
   width: 75vw;
   background: url(none) no-repeat center center;
   background-size: contain;
-  background: #e5e5e5;
+  background: whitesmoke;
   border: 1px solid #494949;
   border-radius: 10px;
   cursor: pointer;
@@ -820,7 +821,7 @@ p {
 
 .description_holder {
   border: 1px solid #494949;
-  background-color: rgba(229, 229, 229, 0.8);
+  background-color: whitesmoke;
   border-radius: 5px;
   width: 150px;
   margin: auto;
