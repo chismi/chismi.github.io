@@ -81,7 +81,7 @@
 		.#{$p-num}Im#{$i} {
 			@include bckImg("../images/#{$title}/Im#{$i}.png");
 			width: 75vw;
-			height: 35vw;
+			height: 55vw;
 			margin-bottom: 10vw;
 			@if $i == 4 {
 				margin-bottom: 150px;
