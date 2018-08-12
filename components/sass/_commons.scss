@@ -33,15 +33,31 @@ h3 {
 	text-decoration: none;
 }
 
-//description text
+//default text left align, 25px indent
 p {
 	font-size: 12px;
 	font-family: $font-description;
 	color: $color-description;
 	text-decoration: none;
 	line-height: 1.5em;
-	padding: 1em;
+	padding: .15em;
+	text-indent: 25px;
+	text-align: left;
 }
+
+//description text center align
+.centerAlign{
+	@extend p;
+		text-align: center;
+}
+
+//description text center align Bold
+.centerAlignBold{
+	@extend p;
+		text-align: center;
+		font-weight: bold;
+}
+
 
 //full height, full width container for pages with z-indices
 .full_block {

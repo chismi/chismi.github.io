@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lora|Roboto|Roboto+Mono);
 html, body, div, span, applet, object, iframe,
-h1, h2, .navigation li, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, .navigation li, h3, h4, h5, h6, p, .centerAlign, .centerAlignBold, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -87,13 +87,24 @@ h3 {
   text-decoration: none;
 }
 
-p {
+p, .centerAlign, .centerAlignBold {
   font-size: 12px;
   font-family: "Lora", serif;
   color: #494949;
   text-decoration: none;
   line-height: 1.5em;
-  padding: 1em;
+  padding: .15em;
+  text-indent: 25px;
+  text-align: left;
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+.centerAlignBold {
+  text-align: center;
+  font-weight: bold;
 }
 
 .full_block {
@@ -1022,6 +1033,7 @@ p {
   background: whitesmoke;
   border: 1px solid #494949;
   border-radius: 10px;
+  padding: 10px;
   cursor: pointer;
   display: none;
 }
